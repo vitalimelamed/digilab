@@ -1,0 +1,139 @@
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+/* General CSS */
+a {
+    color: #fdcf48 !important;
+}
+a:active {
+    color: #fdcf48 !important;
+}
+a:visited {
+    color: #fdcf48 !important;
+}
+a:hover {
+    color: #d5a424 !important;
+}
+.navbar-brand.text-primary {
+    color: #fdcf48 !important;
+}
+.navbar-brand.text-primary:active {
+    color: #fdcf48 !important;
+}
+.navbar-brand.text-primary:visited {
+    color: #fdcf48 !important;
+}
+.navbar-brand.text-primary:hover {
+    color: #d5a424 !important;
+}
+.btn.btn-primary {
+    background-color: #fdcf48;
+    border-color: #fdcf48;
+    font-weight: bold;
+}
+.btn.btn-primary:active {
+    background-color: #fdcf48 !important;
+    border-color: #fdcf48 !important;
+}
+.btn.btn-primary:visited {
+    background-color: #fdcf48 !important;
+    border-color: #fdcf48 !important;
+}
+.btn.btn-primary:hover {
+    background-color: #d5a424 !important;
+    border-color: #d5a424 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+.display-4 {
+    font-weight: bold;
+}
+.bg-social {
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 2.2rem !important;
+    height: 2.2rem;
+    text-align: center;
+    border: none !important;
+}
+.bg-social:hover {
+    background-color: #fdcf48;
+}
+/* Header CSS */
+.logo {
+    margin-right: 0.5rem;
+}
+.logo-text {
+    font-family: serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+.hero {
+    background-color: #666666;
+    background-image: url(../img/Header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+}
+.jumbotron {
+    background-color: transparent;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.lead-serif {
+    font-family: serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+a.nav-format {
+    font-size: 0.8rem;
+    color: #ffffff !important;
+}
+a.nav-format:active {
+    color: #fdcf48 !important;
+}
+a.nav-format:hover {
+    color: #d5a424 !important;
+}
+/* Goals CSS */
+.sm-serif {
+    font-family: serif;
+    font-size: 0.9rem;
+}
+.md-serif {
+    font-family: serif;
+    font-size: 1rem;
+}
+.lg-icons {
+    background-color: #fdcf48;
+    font-size: 6rem;
+    color: #ffffff;
+}
+/* About CSS */
+.about .rounded-circle {
+    border: 0.4rem solid #d3d3d3;
+    width: 80%;
+}
+/* Team CSS */
+.team .rounded-circle {
+    border: 0.4rem solid #ffffff;
+    width: 95%;
+}
+/* Contact CSS */
+.contact {
+    background-color: #222222;
+    background-image: url(../img/City-lights.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+}
+.contact .md-serif {
+    color: #bbbbbb !important;
+}
