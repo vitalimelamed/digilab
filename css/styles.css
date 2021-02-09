@@ -1,6 +1,19 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
 /* Smooth scroll */
 html {
     scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+::placeholder {
+    font-family: inherit;
 }
 /* General CSS */
 a {
@@ -30,7 +43,7 @@ a:hover {
 .btn.btn-primary {
     background-color: #fdcf48;
     border-color: #fdcf48;
-    font-weight: bold;
+    font-weight: 700;
 }
 .btn.btn-primary:active {
     background-color: #fdcf48 !important;
@@ -45,10 +58,10 @@ a:hover {
     border-color: #d5a424 !important;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+    font-weight: 700;
 }
 .display-4 {
-    font-weight: bold;
+    font-weight: 700;
 }
 .bg-social {
     background-color: #222222;
@@ -67,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0.5rem;
 }
 .logo-text {
-    font-family: serif;
+    font-family: inherit;
     font-size: 2rem;
     font-style: italic;
 }
@@ -87,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .lead-serif {
-    font-family: serif;
+    font-family: inherit;
     font-style: italic;
     font-size: 2rem;
 }
@@ -103,11 +116,11 @@ a.nav-format:hover {
 }
 /* Goals CSS */
 .sm-serif {
-    font-family: serif;
+    font-family: inherit;
     font-size: 0.9rem;
 }
 .md-serif {
-    font-family: serif;
+    font-family: inherit;
     font-size: 1rem;
 }
 .lg-icons {
