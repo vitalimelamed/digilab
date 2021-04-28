@@ -3,7 +3,6 @@
 ::after {
     box-sizing: border-box;
 }
-/* Smooth scroll */
 html {
     scroll-behavior: smooth;
 }
@@ -15,54 +14,16 @@ body {
 ::placeholder {
     font-family: inherit;
 }
-/* General CSS */
-a {
-    color: #fdcf48 !important;
-    cursor: pointer;
-}
-a:active {
-    color: #fdcf48 !important;
-}
-a:visited {
-    color: #fdcf48 !important;
-}
-a:hover {
-    color: #d5a424 !important;
-}
-.navbar-brand {
-    font-size: 1.5rem;
-    font-style: italic;
-}
-.navbar-brand.text-primary {
-    color: #fdcf48 !important;
-}
-.navbar-brand.text-primary:active {
-    color: #fdcf48 !important;
-}
-.navbar-brand.text-primary:visited {
-    color: #fdcf48 !important;
-}
-.navbar-brand.text-primary:hover {
-    color: #d5a424 !important;
-}
-.btn.btn-primary {
-    background-color: #fdcf48;
-    color: #222;
-    border-color: #fdcf48;
+/* General styles */
+.btn {
+    background-color: #2e6cd1;
+    color: #f9f9f9;
+    border-color: #2e6dd1;
     font-weight: 700;
 }
-.btn.btn-primary:active {
-    background-color: #fdcf48 !important;
-    color: #222 !important;
-    border-color: #fdcf48 !important;
-}
-.btn.btn-primary:visited {
-    background-color: #fdcf48 !important;
-    border-color: #fdcf48 !important;
-}
-.btn.btn-primary:hover {
-    background-color: #d5a424 !important;
-    border-color: #d5a424 !important;
+.btn:focus, .btn:hover {
+    color: #f9f9f9;
+    opacity: 0.90;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -70,53 +31,48 @@ h1, h2, h3, h4, h5, h6 {
 .display-4 {
     font-weight: 700;
 }
-.bg-social {
-    background-color: #222222;
-    color: #ffffff;
-    font-size: 1.2rem;
-    width: 2.2rem !important;
-    height: 2.2rem;
-    text-align: center;
-    border: none !important;
+.social-icons {
+    color: #2e6dd1;
+    font-size: 25px;
 }
-.bg-social:hover {
-    background-color: #d5a424;
+.social-icons:focus, .social-icons:hover {
+    opacity: 0.85;
 }
-/* Header CSS */
-.logo {
-    margin-right: 0.5em;
-}
+/* Header */
 .hero {
-    background-color: #666666;
-    background-image: url(../img/Header-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: #ffffff;
+    background: linear-gradient(rgba(46, 108, 209, 0.9), rgba(249, 249, 249, 0.3));
+    color: #222222;
 }
 .jumbotron {
     background-color: transparent;
 }
+.navbar-dark .navbar-brand {
+    color: #f9f9f9;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    opacity: 0.7;
+}
 .navbar-toggler {
     border: none;
+    padding: 0;
+    font-size: 30px;
 }
-
-.lead-serif {
-    font-family: inherit;
-    font-style: italic;
-    font-size: 2rem;
+.navbar-toggler:focus {
+    outline: none;
 }
-a.nav-format {
-    font-size: 0.8rem;
-    color: #ffffff !important;
+.navbar-dark .navbar-nav .nav-link {
+    color: #f9f9f9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-a.nav-format:active {
-    color: #fdcf48 !important;
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f9f9f9;
+    opacity: 0.7;
 }
-a.nav-format:hover {
-    color: #d5a424 !important;
-}
-/* Goals CSS */
+/* Goals */
 .sm-serif {
     font-family: inherit;
     font-size: 0.9rem;
@@ -126,29 +82,26 @@ a.nav-format:hover {
     font-size: 1rem;
 }
 .lg-icons {
-    background-color: #fdcf48;
-    font-size: 6rem;
-    color: #ffffff;
+    color: #2e6dd1;
+    font-size: 40px;
 }
-/* About CSS */
+/* About */
 .about .rounded-circle {
     border: 0.4rem solid #d3d3d3;
     width: 80%;
 }
-/* Team CSS */
+/* Team */
 .team .rounded-circle {
-    border: 0.4rem solid #ffffff;
+    border: 0.4rem solid #f9f9f9;
     width: 95%;
 }
-/* Contact CSS */
+/* Contact */
 .contact {
-    background-color: #222222;
-    background-image: url(../img/City-lights.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: #ffffff;
+    background: linear-gradient(rgba(46, 108, 209, 0.9), rgba(249, 249, 249, 0.3));
+    color: #222222;
 }
-.contact .md-serif {
-    color: #bbbbbb !important;
+@media (max-width: 768px) {
+    .jumbotron .display-4 {
+        font-size: 40px;
+    }
 }
