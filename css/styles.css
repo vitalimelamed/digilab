@@ -3,62 +3,45 @@
 ::after {
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-}
 body {
     font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
 }
-::placeholder {
-    font-family: inherit;
-}
-/* General styles */
-.btn {
-    background-color: #2e6cd1;
-    color: #f9f9f9;
-    border-color: #2e6dd1;
-    font-weight: 700;
-}
-.btn:focus, .btn:hover {
-    color: #f9f9f9;
-    opacity: 0.90;
-}
+/* general styles */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
-.display-4 {
-    font-weight: 700;
+.btn {
+    background-color: #e25412;
+    color: #f9f9f9;
+    border-color: #e25412;
 }
-.social-icons {
-    color: #2e6dd1;
-    font-size: 25px;
+.btn:hover {
+    color: #f9f9f9;
+    opacity: 0.8;
 }
-.social-icons:focus, .social-icons:hover {
-    opacity: 0.85;
+.text-left {
+    display: block;
+    text-align: left;
+    margin-bottom: 0;
 }
-/* Header */
-.hero {
-    background: linear-gradient(rgba(46, 108, 209, 0.9), rgba(249, 249, 249, 0.3));
-    color: #222222;
-}
-.jumbotron {
-    background-color: transparent;
-}
+/* header */
 .navbar-dark .navbar-brand {
     color: #f9f9f9;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-    opacity: 0.7;
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f9f9f9;
+    opacity: 0.8;
 }
-.navbar-toggler {
-    border: none;
+.navbar-dark .navbar-toggler {
     padding: 0;
-    font-size: 30px;
+    border: 0;
 }
 .navbar-toggler:focus {
     outline: none;
@@ -68,24 +51,27 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.hero {
+    background: linear-gradient(#e25412, #e49031);
     color: #f9f9f9;
-    opacity: 0.7;
 }
-/* Goals */
+.jumbotron {
+    background-color: transparent;
+}
+/* goals */
 .sm-serif {
     font-family: inherit;
     font-size: 0.9rem;
 }
 .md-serif {
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .lg-icons {
-    color: #2e6dd1;
-    font-size: 40px;
+    color: #e25412;
+    font-size: 2.5rem;
 }
-/* About */
+/* about */
 .about .rounded-circle {
     border: 0.4rem solid #d3d3d3;
     width: 80%;
@@ -95,13 +81,27 @@ h1, h2, h3, h4, h5, h6 {
     border: 0.4rem solid #f9f9f9;
     width: 95%;
 }
-/* Contact */
+/* contact */
 .contact {
-    background: linear-gradient(rgba(46, 108, 209, 0.9), rgba(249, 249, 249, 0.3));
-    color: #222222;
+    background: linear-gradient(#e25412, #e49031);
+}
+.contact h1,
+.contact p {
+    color: #f9f9f9;
+}
+label {
+    color: #f9f9f9;
+    padding-bottom: 0.2em;
+}
+.social-icons {
+    color: #e25412;
+    font-size: 1.3rem;
+}
+.social-icons:hover {
+    opacity: 0.8;
 }
 @media (max-width: 768px) {
     .jumbotron .display-4 {
-        font-size: 40px;
+        font-size: 2.2rem;
     }
 }
